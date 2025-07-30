@@ -1,0 +1,373 @@
+.compCartao {
+
+
+
+    .page-cadastrar-cartao.abrir {
+        display: flex;
+
+
+    }
+
+    .page-cadastrar-cartao {
+        position: fixed;
+        justify-content: center;
+        align-items: center;
+        display: none;
+        width: 100%;
+        height: 100%;
+        backdrop-filter: blur(5px);
+
+        .card {
+            position: fixed;
+            width: 480px;
+            height: 500px;
+            background-color: #222222;
+            display: flex;
+            padding: 10px 30px 30px 30px;
+            align-items: center;
+            flex-direction: column;
+            border-radius: 15px;
+
+
+            .titulo {
+                width: 100%;
+                display: flex;
+                flex-direction: column;
+                gap: 10px;
+                align-items: center;
+            }
+
+
+            .x {
+                width: 100%;
+                text-align: end;
+                font-size: 19px;
+                color: aliceblue;
+                display: flex;
+                justify-content: right;
+                color: #fff;
+
+            }
+
+            .forma {
+                font-size: 22px;
+                color: rgb(253, 254, 255);
+                display: flex;
+                justify-content: center;
+
+            }
+
+            .linha {
+                height: 1px;
+                width: 100%px;
+                background-color: rgba(255, 255, 255, 0.568);
+            }
+
+
+
+            .subcard {
+                width: 100%;
+                height: 100%;
+                margin-top: 20px;
+                background-color: #fffffff6;
+                border-radius: 10px;
+                display: flex;
+                align-items: center;
+                display: flex;
+                flex-direction: column;
+
+                color: aliceblue;
+
+
+                .info {
+                    display: flex;
+                    flex-direction: column;
+                    padding: 10px;
+
+                }
+
+                .container {
+                    display: flex;
+                    width: 100%;
+                    padding: 10px 0px 20px;
+                    gap: 20px;
+
+                }
+
+                input {
+                    height: 50px;
+                    width: 100%;
+                    padding: 10px;
+                    font-size: 15px;
+                    border-radius: 7px;
+                    border: 1px solid black;
+                    outline: none;
+                    color: #161616;
+                    background: transparent;
+                    transition: 0.4s;
+
+                }
+
+                input::placeholder {
+                    color: #161515;
+                }
+
+
+                input:focus {
+                    border: 3px solid #00C2ff;
+
+
+                }
+
+
+                .butonn {
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+
+
+                }
+
+
+                button {
+                    border-radius: 5px;
+                    background: transparent;
+                    border: 1px solid #000;
+                    outline: none;
+                    border-radius: 5px;
+                    cursor: pointer;
+                    height: 35px;
+                    width: 100%;
+                    transition: 1s;
+                    font-size: 15px;
+                }
+
+                button:hover {
+                    font-size: 16px;
+                    border: none;
+                    color: #fff;
+                    background: #00C2ff;
+                }
+
+
+
+
+            }
+        }
+
+
+        @media(max-width:415px) {
+
+            .card {
+                width: 90%;
+                height: 450px;
+            }
+
+        }
+    }
+
+
+
+
+
+
+
+
+    .page-add-cartao.abrir {
+        display: flex;
+    }
+
+
+    .page-add-cartao {
+        position: fixed;
+        justify-content: center;
+        align-items: center;
+        display: none;
+        width: 100%;
+        height: 100%;
+        backdrop-filter: blur(5px);
+
+
+
+
+        .card {
+            position: fixed;
+            width: 450px;
+            height: 500px;
+            background-color: black;
+            border-radius: 30px;
+            align-items: center;
+            display: flex;
+            flex-direction: column;
+            padding: 15px;
+
+
+        }
+
+        .card>h1 {
+            color: #fff;
+            font-size: 18px;
+            margin-bottom: 10px;
+        }
+
+
+        .subcard {
+            border-radius: 15px;
+            padding: 15px;
+            width: 100%;
+            height: 100%;
+            background-color: #353535;
+            border: 2px solid #fff;
+
+        }
+
+        
+
+        .cima div {
+            display: flex;
+            gap: 15px;
+            flex-direction: column;
+            justify-content: center;
+        }
+
+        .cima div>select {
+            padding: 0px 10px;
+            background-color: #fff;
+            border-radius: 10px;
+            width: 100%;
+            height: 35px;
+        }
+
+        .cima div> button{
+            padding: 0px 10px;
+            background-color: #00C2ff;
+            border-radius: 10px;
+            width: 100%;
+            height: 35px;
+        }
+
+        .cima div label h1 {
+            color: #000;
+        }
+
+        .cima div label {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 0px 10px;
+            background-color: #fff;
+            border-radius: 10px;
+            width: 50%;
+            height: 35px;
+        }
+
+        .cima div label select {
+            outline: 0;
+            border: none;
+            background-color: transparent;
+        }
+
+        .cima h1 {
+            font-size: 14px;
+            color: #fff;
+        }
+
+        .line {
+
+            width: 80%;
+            height: 1px;
+            background-color: #fff;
+        }
+
+        .meio {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 5px;
+            margin: 15px 0;
+        }
+
+        .meio h1 {
+            font-size: 14px;
+            width: 20%;
+            width: 100%;
+            text-align: center;
+            color: #fff;
+
+
+        }
+
+        .sair{
+            width: 100%;
+            text-align: end;
+        }
+
+        .baixo {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            height: 50%;
+            gap: 15px;
+        }
+
+        .baixo div:first-child button {
+            width: 100px;
+            height: 35px;
+            border-radius: 10px;
+            border: 1px solid black;
+        }
+
+        .baixo div:first-child {
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+        }
+
+        .baixo div:first-child h1 {
+            font-size: 14px;
+            color: #fff;
+
+        }
+
+
+        .baixo div:last-child {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+
+        }
+
+        .baixo div:last-child button {
+            height: 35px;
+            border-radius: 10px;
+            border: 1px solid #fff;
+            background-color: transparent;
+            color: #fff;
+        }
+
+        .baixo div:last-child div h1 {
+            font-size: 14px;
+            color: #fff;
+
+        }
+
+
+
+        @media(max-width:415px) {
+
+            .card {
+                width: 90%;
+                height: 450px;
+
+            }
+
+            .baixo{
+                height: 30%;
+            }
+
+
+        }
+
+
+    }
+}

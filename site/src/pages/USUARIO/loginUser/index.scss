@@ -1,0 +1,267 @@
+.principal {
+
+    background-color: rgb(0, 0, 0);
+    border: 0px;
+    width: 100%;
+    min-height: 100vh;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+
+
+    LoadingBar {
+
+        width: 100%;
+        color: #12adf9;
+
+    }
+
+    .form-entrar {
+        color: red;
+        margin-top: 10px;
+
+    }
+
+    .subprincipal {
+        height: auto;
+        width: 100%;
+        background-color: #f3f3f3;
+        align-items: center;
+        display: flex;
+        flex-direction: row;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+
+        .imgtoth {
+            margin-top: 20px;
+            padding: 15px;
+        }
+
+        .inputbox {
+            position: relative;
+            padding: 12px 0;
+            
+        }
+
+        .inputbox label {
+            position: absolute;
+            top: 30%;
+            left: 17px;
+            transform: translatey(30%);
+            font-size: 16px;
+            color: #111111;
+            padding: 0 5px;
+            pointer-events: none;
+            transition: .6s;
+        }
+
+        .inputbox button{
+           position: absolute;
+           right: 20px;
+           background: transparent;
+           top: 33%;
+          
+           filter: grayscale(1);
+            filter: brightness(2);
+            border: none ;
+        }
+
+        .inputbox button img{
+            height: 30px;
+            width: 30px;
+        }
+
+        .inputbox input {
+            width: 400px;
+            height: 60px;
+            font-size: 16px;
+            color: #000000;
+            padding: 0 15px;
+            background: transparent;
+            border: 1.2px solid #0e0e0e;
+            outline: none;
+
+            border-radius: 10px;
+        }
+
+
+
+        .inputbox input:focus~label,
+        .inputbox input:valid~label {
+            top: 0;
+            color: #12adf9;
+            font-size: 12px;
+            background: #ffffff;
+
+
+        }
+
+        .inputbox input:focus,
+        .inputbox input:valid {
+            border: 1px solid #12adf9;
+            transition: 0.7s;
+        }
+
+
+
+
+
+        .logar {
+
+            width: 260px;
+            height: 45px;
+            background-color: #0e0e0e00;
+            border-radius: 8px;
+            border: solid 1px rgb(39, 39, 39);
+            align-items: center;
+            font-size: 17px;
+            justify-content: center;
+            color: #0e0e0e;
+            display: flex;
+        }
+
+        .logar:hover {
+            color: #12adf9;
+            border: 1px solid #12adf9;
+            transition: 400ms;
+        }
+
+        .esqueceu {
+            margin-top: 5px;
+            color: #595959;
+            text-decoration: underline;
+        }
+    }
+
+    .comp {
+        margin-top: 10px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        background: transparent;
+
+
+
+        .linha {
+
+
+            width: 300px;
+            height: 1px;
+            background-color: #000000;
+        }
+
+        .ou {
+            font-size: 30px;
+            color: #000000;
+        }
+    }
+
+    .criar {
+
+        text-decoration: none;
+        width: 260px;
+        height: 45px;
+
+        border-radius: 8px;
+        border: solid 1px rgb(49, 49, 49);
+        align-items: center;
+        justify-content: center;
+        color: #000000;
+        display: flex;
+    }
+
+    .criar:hover {
+        color: #12adf9;
+        border: 3.5px solid #12adf9;
+        transition: 1.2s;
+        cursor: pointer;
+    }
+
+    .compmeio {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+        .linhameio {
+            width: 10px;
+            height: 100%;
+            box-shadow: -5px 0px 5px #000000 ;
+            background-color: #080808;
+        }
+
+        .imgmeio {
+            position: absolute;
+            filter: saturate(100%);
+            filter: brightness(0);
+
+            display: none;
+        }
+    }
+
+    .visao {
+
+        filter: brightness(0);
+    }
+
+    .subprincipalimg {
+
+        height: auto;
+        width: 100%;
+
+
+    }
+
+    .subprincipalimg>img {
+        width: 100%;
+        height: auto;
+
+
+    }
+
+
+    @media (max-width: 720px) {
+
+
+        .compmeio {
+            display: none;
+        }
+
+        .subprincipalimg {
+            display: none;
+        }
+
+        .imgtoth {
+            padding: 0px;
+        }
+
+        .comp {
+            width: 100%;
+        }
+
+        
+
+    }
+
+
+    @media(max-width:458px) {
+        .imgtoth {
+            padding: 0px;
+            height: 140px;
+        }
+
+        .subprincipal{
+
+            .inputbox input{
+                width: 300px;
+                height: 50PX;
+            }
+        }
+
+
+       
+
+    }
+
+}

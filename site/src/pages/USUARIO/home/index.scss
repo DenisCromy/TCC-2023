@@ -1,0 +1,769 @@
+.pageHome {
+
+
+    .link-head {
+        color: #000;
+        text-decoration: none;
+    }
+
+
+
+    .nav-cabe {
+        display: flex;
+        align-items: center;
+        width: 100%;
+        height: 40px;
+        justify-content: space-around;
+        background-color: #fcfcfc;
+    }
+
+    .nav-cabe select {
+        border: 1px solid #fff;
+        background-color: transparent;
+        outline: 0;
+        font-size: 16px;
+    }
+
+    .nav-cabe select:hover {
+        text-decoration: underline;
+        cursor: pointer;
+    }
+
+
+    .f1 {
+        padding: 50px;
+        width: 100%;
+        height: 100%;
+        background-color: #e7e7e7;
+        box-shadow: 0px 0px 10px #9b9b9b;
+    }
+
+
+
+
+
+    .slider {
+        margin: 0 auto;
+        width: 100%;
+        height: 250px;
+        overflow: hidden;
+        border-radius: 15px;
+    }
+
+    .slides {
+        width: 400%;
+        height: 250px;
+        display: flex;
+
+    }
+
+    .slides input {
+        display: none;
+    }
+
+    .Slide {
+        width: 25%;
+        transition: 3s;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+    }
+
+    .Slide img {
+        width: 100%;
+        height: 100%;
+
+    }
+
+    .manual-navegation {
+        position: absolute;
+        width: 90%;
+        margin-top: -20px;
+        display: flex;
+        justify-content: center;
+    }
+
+    
+   @media (max-width:720px){
+
+    
+   
+    .manual-navegation {
+        position: absolute;
+        width: 90%;
+        margin-top: -20px;
+        display: flex;
+        justify-content: center;
+    }
+   }
+
+    .manual-btn {
+        border: 2px solid #00C2FF;
+        padding: 5px;
+        border-radius: 10px;
+        cursor: pointer;
+        transition: 0.5s;
+    }
+
+    .manual-btn:not(:last-child) {
+        margin-right: 15px;
+    }
+
+    .manual-btn:hover {
+        background-color: #fff;
+    }
+
+    #radio1:checked~.first {
+        margin-left: 0;
+    }
+
+    #radio2:checked~.first {
+        margin-left: -25%;
+    }
+
+    #radio3:checked~.first {
+        margin-left: -50%;
+    }
+
+    #radio4:checked~.first {
+        margin-left: -75%;
+    }
+
+
+
+
+    .navegation-auto div {
+        border: 2px solid blue;
+        padding: 5px;
+        border-radius: 10px;
+        cursor: pointer;
+        transition: 0.5s;
+    }
+
+    .navegation-auto {
+        position: absolute;
+        width: 90%;
+        margin-top: 230px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .navegation-auto div:not(:last-child) {
+        margin-right: 15px;
+    }
+
+    #radio1:checked~.navegation-auto .auto-btn1 {
+        background-color: #fff;
+    }
+
+    #radio2:checked~.navegation-auto .auto-btn2 {
+        background-color: #fff;
+    }
+
+    #radio3:checked~.navegation-auto .auto-btn3 {
+        background-color: #fff;
+    }
+
+    #radio4:checked~.navegation-auto .auto-btn4 {
+        background-color: #fff;
+    }
+
+
+    .f2 {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+
+
+    }
+
+    .f2 div {
+        padding: 5px;
+    }
+
+    hr {
+        background-color: black;
+        width: 350px;
+        height: 3px;
+        margin: 10px;
+    }
+
+    .f2 div img {
+        cursor: pointer;
+
+    }
+
+    .img-end-end {
+        border: 1px solid red;
+        border-bottom-left-radius: 1000px;
+    }
+
+    .img-end-start:hover {
+        position: absolute;
+        width: 500px;
+        transition: 0.5s;
+
+    }
+
+
+    .img-start-center {
+        margin-left: -230px;
+        margin-right: 0px;
+        border: 1px solid red;
+        border-bottom-left-radius: 1000px;
+    }
+
+    .img-end-center {
+        margin-left: 0px;
+        margin-right: -230px;
+    }
+
+
+    .f2 img {
+        width: 350px;
+        height: 200px;
+    }
+
+    .faixa-3 {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        background-color: #ffffff;
+        width: 100%;
+        padding: 0;
+        height: 550px;
+        box-shadow: 0px 0px 10px #c7c7c7;
+
+    }
+
+    .faixa-3 .meio {
+        padding: 35px;
+        overflow: hidden;
+    }
+
+    .wrapper {
+        display: flex;
+    }
+
+    .faixa-3>button {
+        height: 50px;
+        width: 50px;
+        padding: 5px 15px;
+        background-color: #00C2FF;
+
+    }
+
+    .faixa-3>button img {
+        width: 100%;
+    }
+
+    .faixa-3>button:not(:last-child) {
+        border-top-right-radius: 50px;
+        border-bottom-right-radius: 50px;
+        border: none;
+        cursor: pointer;
+
+    }
+
+    .faixa-3>button:last-child {
+        border-top-left-radius: 50px;
+        border-bottom-left-radius: 50px;
+        border: none;
+        cursor: pointer;
+
+    }
+
+    
+
+
+    .line {
+        width: 350px;
+        height: 1px;
+        background-color: rgb(0, 0, 0);
+    }
+
+    .faixa3 h1 {
+        padding: 0px 10px;
+        font-size: 33px;
+    }
+
+    .line2 {
+        width: 500px;
+        height: 1px;
+        background-color: rgb(0, 0, 0);
+        margin-bottom: 15px;
+    }
+
+
+
+
+    .faixa-4 {
+        margin: 0px;
+        width: 100%;
+        height: 310px;
+        background-image: url('../../../../public/assets/images/FaixaHome.jfif');
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+        justify-content: space-between;
+        padding: 50px;
+    }
+
+    .left-f4 {
+
+        background-color: #00000063;
+        width: 550px;
+        height: 100px;
+        border-radius: 10px;
+        font-size: 33px;
+        color: #ffffff;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .left-f4 h1 {
+
+        text-align: center;
+        font-size: 36px;
+
+    }
+
+
+    .right-f4 {
+        display: none
+    }
+
+    .right-f4 button {
+        width: 200px;
+        height: 40px;
+        background-color: #00C2FF;
+        border: none;
+        color: white;
+        font-size: 18px;
+        border-radius: 15px;
+    }
+
+    .right-f4 button:hover {
+        background-color: transparent;
+        font-size: 20px;
+        border: 1px #00C2FF solid;
+        background-color: white;
+        color: #00C2FF;
+        transition: 0.5s;
+        cursor: pointer;
+
+
+    }
+
+
+    .faixa-5 {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        background-color: #ffffff;
+        width: 100%;
+        height: 550px;
+        box-shadow: 0px 0px 10px #c7c7c7;
+        padding: 0;
+
+    }
+
+    .faixa-5 .meio {
+        padding: 35px;
+        overflow: hidden;
+    }
+
+
+    .faixa-5>button {
+        height: 50px;
+        width: 50px;
+        padding: 5px 15px;
+        background-color: #00C2FF;
+
+    }
+
+    .faixa-5>button img {
+        width: 100%;
+    }
+
+    .faixa-5>button:not(:last-child) {
+        border-top-right-radius: 50px;
+        border-bottom-right-radius: 50px;
+        border: none;
+        cursor: pointer;
+
+    }
+
+    .faixa-5>button:last-child {
+        border-top-left-radius: 50px;
+        border-bottom-left-radius: 50px;
+        border: none;
+        cursor: pointer;
+
+    }
+
+    .cima-f5 {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: end;
+        align-items: end;
+        font-size: 22px;
+    }
+
+    .cima-f5 h1 {
+        padding: 0px 10px;
+        font-size: 24px;
+    }
+
+    .f6 {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 10px 35px;
+        width: 100%;
+        height: 120px;
+        background-color: #d9d9d9;
+    }
+
+    .esq-f6 {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .text-f6 {
+        width: 200px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .text-f6 hr {
+        width: 200px;
+        height: 4px;
+        background-color: black;
+    }
+
+
+    .dir-f6 {
+        width: 550px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .dir-f6 input {
+        width: 350px;
+        height: 40px;
+        background: white;
+        padding: 0px 15px;
+        display: flex;
+        outline: 0;
+        border: 1px solid black;
+        border-radius: 15px;
+
+
+    }
+
+    .dir-f6 button {
+        width: 150px;
+        border: none;
+        background-color: #00C2FF;
+        height: 40px;
+        border-radius: 15px;
+        color: #fff;
+    }
+
+    .dir-f6 button:hover {
+        background-color: transparent;
+        border: 1px solid #000;
+        color: #000;
+        transition: 0.5s;
+
+    }
+
+
+    .container {
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+    }
+
+    .container .carousel2{
+        display: flex;
+        padding: 20px;
+        gap: 20px;
+        overflow-x: auto;
+        scroll-behavior: smooth;
+        overflow: hidden;
+    }
+
+    .container .carousel {
+        display: flex;
+        padding: 20px;
+        gap: 20px;
+        overflow-x: auto;
+        scroll-behavior: smooth;
+        overflow: hidden;
+
+    }
+
+    .f6 {
+        display: none;
+    }
+
+    .container .carousel2 .card-item {
+        cursor: pointer;
+        height: 400px;
+        width: 240px;
+        box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.05) 0px 8px 32px;
+        border-radius: 10px;
+        padding: 10px;
+        transition: 0.3s;
+    }
+
+    .container .carousel .card-item {
+        cursor: pointer;
+        height: 400px;
+        width: 240px;
+        box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.05) 0px 8px 32px;
+        border-radius: 10px;
+        padding: 10px;
+        transition: 0.3s;
+    }
+
+
+    .card-item .superior {
+        width: 100%;
+        height: 50%;
+        padding: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+    }
+
+    .card-item .inferior {
+        width: 100%;
+        height: 50%;
+        padding: 10px;
+    }
+
+    .carousel .card-item .imagem-produto {
+        width: 75%;
+        height: 100%;
+    }
+
+    .carousel2 .card-item .imagem-produto {
+        width: 90%;
+        height: 100%;
+    }
+
+
+
+    .line-carousel {
+        width: 220px;
+        background-color: #c0c0c0;
+        height: 1px;
+    }
+
+
+    .precopromo {
+
+        color: #00C2FF;
+
+    }
+
+    .preco{
+        font-size: 16px;
+    }
+
+    .zero-price {
+        font-size: 22px;
+        color: #00C2FF;
+        margin-top: 20px;
+      }
+      
+    
+
+
+    .infos-prod {
+
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        
+
+    }
+
+    .NomesProdutos p {
+
+        display: -webkit-box;
+        -webkit-line-clamp: 2;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+        height: 50%;
+        
+        
+    }
+
+
+    .NomesProdutos {
+
+        height: 50%;
+        width: 100%;
+
+        display: flex;
+
+        justify-content: center;
+
+    }
+
+    .infosprodutos {
+
+        height: 50%;
+        width: 100%;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+    }
+
+
+    .frete {
+
+        height: 50%;
+
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-start;
+        
+
+    }
+
+
+
+
+    @media (max-width: 720px){
+
+
+        .slides {
+            height: 150px;            
+        }
+
+        .slider{
+            height: 150px;
+        }
+
+        .Slide img {
+            width: 100%;
+            max-height: 100%;
+    
+        }
+
+        .navegation-auto {
+            margin-top: 130px;    
+        }
+
+
+        .faixa-3 > button{
+            display: none;
+        }
+
+        .faixa-5 > button{
+            display: none;
+        }
+
+
+    @media (max-width: 415px) {
+
+        .f1{
+            padding: 30px;
+        }
+
+        .nav-cabe{
+            display: none;
+        }
+
+        .slides {
+            height: 120px;            
+        }
+
+        .slider{
+            height: 120px;
+        }
+
+        .Slide img {
+            width: 100%;
+            max-height: 100%;
+    
+        }
+
+        .navegation-auto {
+            margin-top: 100px;    
+        }
+
+        .faixa-4{
+            display: flex;
+            justify-content: center;
+            height: 130px;
+        }
+
+        .left-f4{
+            height: 60px;
+        }
+
+        .left-f4 h1 {
+            font-size: 22px;
+        }
+
+        .card-item h1{
+            height: 20px;
+        }
+
+
+
+   
+    }
+
+
+
+
+    
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}

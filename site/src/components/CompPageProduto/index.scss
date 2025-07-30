@@ -1,0 +1,765 @@
+.CompProduto {
+
+    
+    
+    .CompProd-f1 {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        background-color: #d9d9d9;
+        width: 100%;
+        height: 800px;
+        padding: 30px;
+       
+      
+    }
+
+    .Card{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 100%;
+        gap: 15px;
+        background-color: #fff;
+        padding: 15px;
+        border-radius: 20px;
+   }
+
+  
+
+   
+    .Esq{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 55%;
+        height: 100%;
+      
+        
+    }
+
+    .Cima-Esq{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding: 15px;
+        width: 100%;
+        height: 100%;
+        gap: 10px;
+        background-color: #d9d9d9;
+        border-radius: 15px;
+    }
+
+    .ladoImg{
+        width: 15%;
+        height: 100%;
+        box-shadow: 0px 0px 5px black;
+    }
+
+    .ImgPrincipal{
+        width: 90%;
+        height: 90%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: white;
+   
+        border-radius: 5px; 
+        display: flex;
+        align-items: center;
+    }
+    
+
+
+    .fretes {
+        color: #00C2FF;
+    }
+
+
+    .ImgPrincipal img {
+       width: 90%;
+       border-radius: 10px;
+       height: 90%;
+    }
+
+    .DesqProd{
+        box-shadow: 0px 0px 5px black;
+        width: 100%;
+        padding: 15px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+
+    }
+
+
+    .DesqProd p{
+        font-size: 18px;
+    }
+
+    .DesqProd h1{
+        font-size: 33px;
+    }
+
+    .Dir .bancos img{
+        height: 30px;
+        margin: 5px;
+    }
+
+
+
+
+    .Meio-Esq{
+        display: flex;
+        justify-content: space-around;
+        padding: 0px 20px;
+        width: 100%;
+        align-items: center;
+        height: 15%;
+        background-color: #d9d9d9;
+        border-radius: 15px;
+    }
+
+    .Meio-Esq button{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 15px;
+        border-radius: 10px;
+        border: 1px solid #000;
+        width: 138px;
+        height: 50px;
+    }
+
+    .Meio-Esq button:hover{
+      background-color: #534f4f;
+      font-size: 19px;
+      border: #fff;
+      color: #fff;
+      transition: 0.4s;
+    }
+
+    .Fim-Esq{
+        display: flex;
+        justify-content: space-between;
+        padding: 0px 20px;
+        width: 100%;
+        height: 15%;
+        border-radius: 15px;
+        background-color: #d9d9d9;
+    }
+
+
+
+    .Dir{
+        width: 45%;
+        height: 100%; 
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        border-radius: 15px;
+        background-color: #d9d9d9;
+        padding: 15px;
+        
+    }
+
+    .Dir>div:not(:last-child) {
+        width: 80%;
+        height: 45%;
+    }
+
+    .Dir>div:first-child{
+        display:flex ;
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .Dir>div:first-child .Cubo-dir{
+        height: 50%;
+    }
+
+
+
+    .Dir>div:not(:last-child,:first-child){
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+
+
+
+    
+
+    
+    .button1{
+        width: 200px;
+        height: 40px;
+        background-color: #00C2FF;
+        border-radius: 15px;
+        border: none;
+        margin: 10px 0px;
+        color: #fff;
+    }
+
+    .button2{
+        width: 200px;
+        height: 40px;
+        background-color: #00c3ff2d;
+        border-radius: 15px;
+        border: none;
+        margin: 10px 0px;
+        color: #fff;
+    }
+
+
+    .Dir button:hover{
+        background-color: transparent;
+        border: 1px solid black;
+        transition: 0.5s;
+        cursor: pointer;
+        color: #000;
+    }
+
+    .Cubo-dir{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        width: 100%;
+        height: 25%;
+        background-color: #fff;
+        padding: 10px;
+        border-radius: 15px;
+    }
+
+
+    .baixo-dir{
+        width: 100%;
+        height: 30%;
+        background-color: white;
+        border-radius: 15px;
+        padding: 15px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+
+    }
+
+    .baixo-dir h2{
+        font-size: 18px;
+        text-align: center;
+        color: #24d33b;
+    }
+
+    .baixo-dir h1{
+        font-size: 18px;
+    }
+
+    .baixo-dir p{
+        text-align: center;
+    }
+
+
+    .CompProd-f2{
+        display: flex;
+        flex-direction: column;
+        background-color: #d9d9d9;
+        height: 100%;
+        width: 100%;
+        padding: 40px;
+        
+       
+    }
+
+    .infoPro .cima{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+    }
+
+    .infoPro .baixo{
+        margin: 10px 0;
+        width: 100%;
+        height: 100%;
+        
+    }
+
+    .infoPro .baixo h1{
+        width: 100%;
+        height: 100%;
+        overflow-wrap: break-word;
+
+        
+    }
+
+
+    .infoPro{
+       
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        border-radius: 25px;
+        background-color: #f0f2f3;
+        height: 50px;
+        padding: 10px 30px;
+        font-size: 14px;
+        overflow: hidden;
+        transition: 0.5s ease;
+    }
+
+    .button22{
+        display: none;
+        rotate: 90deg;
+        cursor: pointer;
+        height: 20px;
+        border: none;
+    }
+
+    .button11{
+        cursor: pointer;
+        rotate: -90deg;
+        height: 20px;
+    }
+
+
+
+
+    .infoPro.maior{
+        
+        height: 100%;
+        .button11{
+            display: none;
+        }
+
+        .button22{
+            display: flex;
+        }
+    }
+
+
+    .comen{
+        margin-top: 30px;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        gap: 15px;
+        padding: 15px 30px;
+        border-radius: 25px;
+        background-color: #f0f2f3;
+        height: 400px;
+    }
+
+    .comen h1{
+        font-size: 22px;
+    }
+
+    .comen > label{
+        height: 10%;
+        width: 100%;
+        display: flex;
+        align-items: end;
+        gap: 5px;
+
+    }
+
+    .comen > label img{
+        height: 25px;
+        cursor: pointer;
+    }
+
+    .comen > label img:active{
+        height: 22px;
+        transition: 0.2s ease;
+    }
+
+
+
+    .comen > label input{
+        height: 100%;
+        width: 100%;
+        background-color: transparent;
+        font-size: 18px;
+        outline: 0;
+        border: none;
+        border-bottom: 1px solid black;
+    }
+
+    .comen > div{
+        height: 80%;
+       
+    }
+
+
+
+
+    
+    .linee{
+        width: 350px;
+        height: 2px;
+        background-color: white;
+    }
+
+    .line2{
+        width: 500px;
+        height: 2px;
+        background-color: #fff;
+    }
+    
+    .faixa-5{
+        margin-top: 30px;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 500px;
+        padding: 50px;
+
+    }
+
+    .cima-f5{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: end;
+        align-items: end;
+        font-size: 22px;
+    }
+
+    .cima-f5 h1{
+        padding: 0px 10px;
+    }
+
+
+    .comentarios{
+        display: flex;
+        flex-direction: column;
+        height: 240px;
+        padding: 5px;
+        overflow-y: auto;
+        gap: 10px;
+    }
+
+
+    .comentarios::-webkit-scrollbar {
+        width: 5px;
+    }
+
+    .comentarios::-webkit-scrollbar-track {
+        background: #f1f1f1;
+        width: 10px;
+    }
+
+    .comentarios::-webkit-scrollbar-thumb {
+        background: #b9b9b9;
+        border-radius: 10px;
+    }
+
+    .comentarios::-webkit-scrollbar-thumb:hover {
+        background: #bebebe;
+    }
+
+
+    .comentarioCard{
+
+        height: 100%;
+        width: 100%;
+        padding: 10px;
+        background-color: rgb(247, 247, 247);
+        box-shadow: 0px 0px 5px #b4b4b4;
+        border-radius: 10px;
+        display: flex;
+        flex-direction: column;
+    }~
+
+    .coment{
+        height: 80px;
+    }
+
+
+    .comentarioCard p {
+        font-size: 18px;
+        color: #534f4f;
+    }
+
+    .comentarioCard h3 {
+        font-size: 16px;
+        color: #534f4f;
+        overflow-wrap: break-word;
+
+    }
+
+
+
+    @media (max-width: 720px){
+        .Card{
+            height: 100%;
+            flex-direction: column;
+        }
+
+        .CompProd-f1{
+            height: 800px;
+        }
+
+        .cubos{
+            height: 100%;
+        }
+
+      
+
+        .button1{
+            margin: 0;
+          
+        }
+
+        .Dir .bancos img{
+            height: 20px;
+            margin: 5px;
+        }
+        
+
+        .Dir{
+            flex-direction: column;
+            justify-content: space-between;
+            width: 100%;
+            height: 35%;
+            padding: 20px;
+            
+            
+        }
+
+        .Dir>div:not(:last-child) {
+            width: 100%;
+            height: 100%;
+        }
+
+        .Dir>div:not(:last-child,:first-child){
+            width: 80%;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+  
+
+        .bancos{
+            display: none;
+        }
+
+        .Esq{
+            width: 80%;
+            height: 65%;
+        }
+
+        
+    }
+
+
+
+    @media (max-width: 415px) {
+        
+        .CompProd-f1{
+            display: flex;
+            height: 70%;
+        }
+
+        .Dir>div:not(:last-child,:first-child){
+            gap: 20px;
+            width: 100%;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .infoPro{
+           font-size: 10px;
+           padding: 12px 15px;
+           height: 40px;
+        }
+
+
+        
+
+        .button11, .button22{
+            height: 15px;
+        }
+
+        .comen{
+            height: 400px;
+            font-size: 10px;
+            padding: 15px;
+        }
+
+        .comen  h1{
+            font-size: 16px;
+        }
+
+        .cima-f5{
+            font-size: 10px;
+        }
+
+    
+
+
+        
+    }
+
+
+
+
+    
+    @media (max-width:1632px){
+    .ImgPrincipal{
+
+        width: 80%;
+    }
+
+
+   }
+
+   @media (max-width:1249px){
+    .ImgPrincipal{
+
+        width: 100%;
+        
+    }
+
+    .Cubo-dir{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        width: 100%;
+        height: 70% !important;
+        background-color: #fff;
+        padding: 10px;
+        border-radius: 15px;
+    }
+
+
+   }
+
+
+
+   @media (max-width:888px){
+    .ImgPrincipal{
+
+        width: 100%;
+        height: 80%;
+        
+    }
+
+    .Cubo-dir{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        width: 100%;
+        height: 80% !important;
+        background-color: #fff;
+        padding: 10px;
+        border-radius: 15px;
+    }
+
+
+   }
+
+
+
+
+   @media (max-width:840px){
+    .ImgPrincipal{
+
+        width: 100%;
+        height: 80%;
+        
+    }
+
+    .Cubo-dir{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        width: 110%;
+        height: 80% !important;
+        background-color: #fff;
+        padding: 10px;
+        border-radius: 15px;
+    }
+
+
+   }
+
+
+
+   @media (max-width:780px){
+    .ImgPrincipal{
+
+        width: 100%;
+        height: 75%;
+        
+    }
+
+    .Cubo-dir{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        width: 110%;
+        height: 82% !important;
+        background-color: #fff;
+        padding: 10px;
+        border-radius: 15px;
+        font-size: 14px;
+    }
+
+
+   }
+
+
+
+   @media (max-width:720px){
+    .ImgPrincipal{
+
+        width: 100%;
+        height: 80%;
+        
+    }
+    .Dir{
+        flex-direction: column;
+        justify-content: space-between;
+        width: 100%;
+        height: 38%;
+        padding: 20px;
+        
+        
+    }
+
+    .Card{
+        height: 105%;
+        flex-direction: column;
+    }
+
+
+
+    .Cubo-dir{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        width: 100%;
+        height: 80% !important;
+        background-color: #fff;
+        padding: 10px;
+        border-radius: 15px;
+    }
+
+
+   }
+
+
+
+
+}
